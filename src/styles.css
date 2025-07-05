@@ -16,6 +16,15 @@ a {
   text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+}
+
+.wrapper-spacing--v {
+  padding-top: var(--padding-section-top);
+  padding-bottom: var(--padding-section-bottom);
+}
+
 .animated-link {
   color: inherit;
   display: inline;
