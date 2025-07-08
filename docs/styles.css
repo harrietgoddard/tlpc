@@ -360,7 +360,7 @@ img {
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: calc(50% - 40px);
+  top: 0;
   width: 44px;
   height: 44px;
   padding: 12px;
@@ -405,8 +405,8 @@ img {
 }
 
 .swiper-btn--wrapper {
-  @medai screen and (max-width: 768px) {
-    display: none;
+  @media screen and (max-width: 768px) {
+    display: none !important;
   }
 }
 
