@@ -558,7 +558,7 @@ product-slideshow .product-slideshow__overlay-text .product-slideshow__slide-tex
 product-slideshow .product-slideshow__overlay-text .product-slideshow__heading:not(:last-child),
 product-slideshow .product-slideshow__overlay-text .product-slideshow__price:not(:last-child),
 product-slideshow .product-slideshow__overlay-text .product-slideshow__text:not(:last-child) {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 product-slideshow .product-slideshow__overlay-text .product-slideshow__button:not(:first-child) {
