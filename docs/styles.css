@@ -719,12 +719,12 @@ product-slideshow .product-slideshow__overlay-text .product-slideshow__text {
 }
 
 .article {
-  text-align: center;
   max-width: 900px;
   margin: 0 auto;
   padding: 30px;
-
+  
   h1 {
+    text-align: center;
     font-size: 2.5rem;
     margin-bottom: 2rem;
 
@@ -734,9 +734,18 @@ product-slideshow .product-slideshow__overlay-text .product-slideshow__text {
     }
   }
 
+  h5 {
+    font-size: 1.5rem;
+    margin: 30px 0 8px 0;
+  }
+
   p {
     margin-bottom: 15px;
   };
+}
+
+.article-button {
+  margin-top: 30px;
 }
 
 /* Blog page */
