@@ -65,6 +65,10 @@ img {
   font-family: 'Raleway', monospace;
 }
 
+.rich-text-list {
+  padding-left: 20px;
+}
+
 /* Announcement bar styles */
 .announcement-bar {
   background: #f8f9fa;
@@ -770,6 +774,7 @@ product-slideshow .product-slideshow__overlay-text .product-slideshow__text {
 .blog-card {
   display: flex;
   flex-direction: column;
+  flex: 1;
 }
 
 @media screen and (min-width: 769px) and (hover: hover) {
@@ -790,6 +795,10 @@ product-slideshow .product-slideshow__overlay-text .product-slideshow__text {
     transform: scale(1.04);
     transition: .8s transform;
   }
+}
+
+.blog-card__image {
+  aspect-ratio: 1 / 1;
 }
 
 .blog-card__content {
