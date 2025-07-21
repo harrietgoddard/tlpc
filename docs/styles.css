@@ -26,6 +26,25 @@ img {
   padding-bottom: var(--padding-section-bottom);
 }
 
+.text-link-animated {
+  display: inline;
+  text-decoration: none;
+  position: relative;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.3) 0, rgba(0, 0, 0, 0.3) 0), linear-gradient(to top, currentColor 0, currentColor 0);
+  background-size: 100% 1px, 0 1px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition-property: background-size;
+  transition-timing-function: ease;
+  transition-duration: .25s;
+  padding-bottom: 2px;
+}
+
+.text-link-animated:hover,
+.text-link-animated:focus {
+  background-size: 0 1px, 100% 1px;
+}
+
 .animated-link {
   color: inherit;
   display: inline;
